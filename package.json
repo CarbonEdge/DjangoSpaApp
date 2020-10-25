@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "watch": "webpack --mode development --watch ./leadmananager/frontend/src/index.js --output ./leadmananager/frontend/static/frontend/main.js",
     "dev": "webpack --mode development ./leadmananager/frontend/src/index.js --output ./leadmananager/frontend/static/frontend/main.js",
     "build": "webpack --mode production ./leadmananager/frontend/src/index.js --output ./leadmananager/frontend/static/frontend/main.js"
   },
