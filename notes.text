@@ -1,0 +1,11 @@
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "webpack --mode development ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js",
+    "build" : "webpack --mode production ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js"
+  },
+  // https://www.youtube.com/watch?v=GieYIzvdt2U&t=234s 11:51 This is the most important part you are redirecting the SPA to the API
+
+  pipenv shell then npm run dev to start
+
+      <!-- <link rel="stylesheet" href="{% static "css/style.css" %}"> -->
+
