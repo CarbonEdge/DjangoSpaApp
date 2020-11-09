@@ -6,6 +6,7 @@
   // https://www.youtube.com/watch?v=GieYIzvdt2U&t=234s 11:51 This is the most important part you are redirecting the SPA to the API
 
   pipenv shell then npm run dev to start
+  cd leadmananager and python manage.py runserver to run
 
       <!-- <link rel="stylesheet" href="{% static "css/style.css" %}"> -->
 
